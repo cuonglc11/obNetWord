@@ -195,9 +195,14 @@ body.dark-mode footer {
     background:  #212222;
 }
 .my-custom-tab .active {
-color : #092938;
-font-weight: bold;
+    color: #092938;
+    font-weight: bold;
+    background: #FFF;
+    width: 53rem;
+    border-radius: 12px;
+    padding: 10px;
 }
+
 body.dark-mode {
     background: #22292C;
     color: white;
@@ -915,6 +920,16 @@ body.dark-mode {
     }
     .my-custom-tab {
         flex-direction: row;
+    }
+    .my-custom-tab .active {
+        color: #092938;
+        font-weight: bold;
+        background: #FFF;
+        width: 53rem;
+        border-radius: 12px;
+        padding: 10px;
+        height: 45px;
+
     }
  
 }
