@@ -43,7 +43,7 @@
                             <div class="d-flex align-items-center flex-nowrap pt-xl-0">
                                 <a href="appointment.html" class="login-button">Login</a>
                                 <button class="change-button" onclick="toggleDarkMode()">
-                                  <img src="./img/mattroi.svg" id="toggle-icon"/>    
+                                  <img src="./img/mattroi.svg" id="toggle-icon" style="margin-left: 1rem;"/>    
                                 </button>
                             </div>
                         </div>
@@ -181,8 +181,22 @@
                             About
                         </div>
                     </div>
+                    <div class="justify-content-around row d-flex d-md-none">
+                        <div class="col-12 col-md-3 tab-header active" data-tab="tab-staking">
+                            Staking
+                        </div>
+                        <div class="col-12 col-md-3 tab-header" data-tab="tab-mining">
+                            Mining
+                        </div>
+                        <div class="col-12 col-md-3 tab-header" data-tab="tab-data">
+                            Data
+                        </div>
+                        <div class="col-12 col-md-3 tab-header" data-tab="tab-about">
+                            About
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-12 col-lg-7">
+                <div class="col-md-12 col-lg-7 moblie">
                     <div class="tab-content active" id="tab-staking">
                         <h1 class="staking_h1">Staking (PoS)</h1>
                         <p>Staking is where a cryptocurrency holder participates in the validation of transactions on a proof-of-stake (PoS) blockchain, similar to mining. This is achieved by the holder making their coins available to the network as a stake (a bit like a security deposit).</p>
@@ -227,7 +241,7 @@
                  <div class="row">
                     <div class="col-md-12 col-lg-6">
                         <div class="row">
-                            <div class="col-md-12 col-lg-6 text-end d-block d-md-block">
+                            <div class="col-md-12 col-lg-6 text-end d-block d-md-none">
                                 <h1 class="staking_f">Staking with 0bnetwork</h1>
                                 <p>Fixed income solutions for digital asset investors.</p>
                                 <img src="./img/trumtien.png" width="400"/>
@@ -241,7 +255,6 @@
                             <div class="col-lg-6 col-md-12 item-stack">
                                 <p>
                                     Lloyd's offers the best-in-class services, such as in-depth research and analysis across our supported protocols combined with leading staking infrastructure. This ensures your digital assets are secure and accessible.
-
                                 </p>
                             </div>
                             <div class="col-lg-6 col-md-12 item-stack">
@@ -267,11 +280,11 @@
           <footer class="container-fluid">
                <div class="container">
                 <div class="row">
-                    <div class="col-lg-1">
-                        <img src="./img/logo-fooder-white.svg" id="logoFooder" width="50" />
+                    <div class="col-lg-1 col-md-12">
+                        <img src="./img/logo-fooder-white.svg" id="logoFooder" width="50" class="mx-auto d-block d-md-inline"/>
                     </div>
-                    <div class="col-lg-5">
-                        <p class="title_fooder">© 2023 0bnetwork Blockchain Technology, All rights reserved.</p>
+                    <div class="col-lg-5  col-md-12">
+                        <p class="mx-auto d-block d-md-inline title_fooder">© 2023 0bnetwork Blockchain Technology, All rights reserved.</p>
                     </div>
                     
                 </div>
