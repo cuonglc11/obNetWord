@@ -33,7 +33,7 @@
                             <span class="fa fa-bars text-primary"></span>
                         </button>
                         <div class="collapse navbar-collapse  py-3" id="navbarCollapse">
-                            <div class="navbar-nav mx-auto border-top">
+                            <div class="navbar-nav mx-auto border-top menu_khoang">
                                 <a href="#home" class="nav-item nav-link active">Home</a>
                                 <a href="#Expertise" class="nav-item nav-link">Expertise</a>
                                 <a href="#whatWedo" class="nav-item nav-link">What we do</a>
@@ -52,7 +52,7 @@
             </div>
         </header>
         <section class="layout-1" id="home">
-            <div class="container">
+            <div class="container d-none d-md-block">
               <div class="row">
                   <div class="col-lg-6 col-md-12">
                      <div class="title">
@@ -74,6 +74,30 @@
                   </div>
               </div>
             </div>
+            <div class="container-fluid d-block d-md-none fullscreen-mobile">
+                <div class="row">
+                    <div class="col-12">
+                       <div class="title">
+                           <span>Blockchain Technology</span>
+                       </div>
+                      
+                       <p class="title_content">
+                          Staking, and application layer solutions <br/>
+                          build on Web3 technology
+                       </p>
+                       <div class="col-lg-6 col-md-12  justify-content-center align-items-center">
+                        <img src="./img/m.svg" class="rotate  img-fluid" id="bg-1"  />
+                      </div>
+                       <button type="button" class="col-12 learn-button">
+                          Learn more
+                       </button>
+                       <button type="button" class="col-12 Register-button">
+                          Register
+                      </button>
+                    </div>
+                  
+                </div>
+              </div>
          </section>
          <section class="layout-2" id="Expertise">
             <div class="container">
@@ -95,7 +119,7 @@
               </div>
             </div>
          </section>
-         <section style="margin-top: 12px;">
+         <section style="margin-top: 10rem;">
             <div class="container">
               <div class="row">
                 <div class="col-md-12 col-lg-6">
@@ -133,10 +157,10 @@
               </div>
             </div>
          </section>
-         <section class="container">
+         <section class="container"  style="margin-top: 10rem;">
              <div class="row">
                 <div class="col-md-12 col-lg-5">
-                    <h1>0bNetwork Blockchain Technology</h1>
+                    <h1 class="staking_h1">0bNetwork Blockchain Technology</h1>
                 </div>
              </div>
          </section>
@@ -198,11 +222,16 @@
             
             </div>
          </section>
-         <section style="margin-top: 5rem;" id="stack">
+         <section style="margin-top: 10rem;" id="stack">
              <div class="container ">
                  <div class="row">
                     <div class="col-md-12 col-lg-6">
                         <div class="row">
+                            <div class="col-md-12 col-lg-6 text-end d-block d-md-block">
+                                <h1 class="staking_f">Staking with 0bnetwork</h1>
+                                <p>Fixed income solutions for digital asset investors.</p>
+                                <img src="./img/trumtien.png" width="400"/>
+                               </div>
                             <div class="col-lg-6 col-md-12 item-stack">
                                 <p>
                                     0bnetwork robust infrastructure helps investors earn yield from staking and DeFi without taking custody of their digital assets or the complex process of setting up, running and maintaining their own technology.
@@ -227,8 +256,8 @@
                             </div>
                         </div>
                      </div>
-               <div class="col-md-12 col-lg-6 text-end">
-                <h1>Staking with 0bnetwork</h1>
+               <div class="col-md-12 col-lg-6 text-end d-none d-md-block">
+                <h1 class="staking_f">Staking with 0bnetwork</h1>
                 <p>Fixed income solutions for digital asset investors.</p>
                 <img src="./img/trumtien.png" width="400"/>
                </div>
