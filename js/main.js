@@ -80,7 +80,7 @@ function toggleDarkMode() {
     const menu = document.querySelector('.navbar');
     const toggleIcon = document.getElementById('toggle-icon');
     const logo = document.getElementById('logo');
-    const bg_1 = document.getElementById('bg-1');
+    // const bg_1 = document.getElementById('bg-1');
     const  logoFooder = document.getElementById('logoFooder')
 
     
@@ -88,7 +88,7 @@ function toggleDarkMode() {
         body.classList.remove('dark-mode');
         toggleIcon.src = '../img/mattroi.svg';
         logo.src = '../img/logo-while.svg';
-        bg_1.src = '../img/m.svg';
+        // bg_1.src = '../img/m.svg';
         logoFooder.src = '../img/logo-fooder-white.svg'
           menu.classList.remove('dark-mode');
 
@@ -96,7 +96,7 @@ function toggleDarkMode() {
         body.classList.add('dark-mode');
         toggleIcon.src = '../img/moon.svg';
         logo.src = '../img/logo-black.svg'
-        bg_1.src = '../img/m-black.svg';
+        // bg_1.src = '../img/m-black.svg';
         menu.classList.add('dark-mode');
         logoFooder.src = '../img/logo-fooder-black.svg';
 

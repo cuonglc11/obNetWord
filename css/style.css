@@ -1035,6 +1035,15 @@ body.dark-mode {
     .layout-2 {
         margin-top: 5rem;
     }
+    body.dark-mode   .navbar-collapse {
+      background-color: #000000;   
+      backdrop-filter: blur(25px);
+    }
+    .navbar-collapse {
+        background: #E4E4E4;
+        backdrop-filter: blur(25px);
+    }
+
 }
 
 
